@@ -40,3 +40,7 @@ matlab-if/libdrone_physics_matlab.a
 
 hakoniwa/python/results
 px4/auto-test/test_resource/eval
+
+.vs/
+
+/hakoniwa/drone_log0
