@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "asset_plant::@cf3864cb9f76cefc1546"
+		},
+		{
+			"id" : "asset_controller::@cf3864cb9f76cefc1546"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@cf3864cb9f76cefc1546",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

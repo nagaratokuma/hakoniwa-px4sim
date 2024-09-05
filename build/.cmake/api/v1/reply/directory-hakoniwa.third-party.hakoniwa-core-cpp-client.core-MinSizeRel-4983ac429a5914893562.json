@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"hakoniwa/third-party/hakoniwa-core-cpp-client/core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/hakoniwa/hakoniwa-px4sim/hakoniwa/third-party/hakoniwa-core-cpp-client/core/public/include",
+			"paths" : 
+			[
+				{
+					"from" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core"
+	}
+}

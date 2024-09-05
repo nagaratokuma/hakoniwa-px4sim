@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FCE8EBE-B794-31B7-B79B-F8626502000A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>px4sim_manual</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">px4sim_manual.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">px4sim_manual</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">px4sim_manual.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">px4sim_manual</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">px4sim_manual.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">px4sim_manual</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">px4sim_manual.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">px4sim_manual</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4309;4514;4201;4100;4255;5999;4242;26451;4464;4866;5026;26495;4800;4061;4819;4477;4244;4245;4820;4365;4267;4623;4625;4626;5027;5045;26819;26812;4668;4996;5039</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\third-party\hakoniwa-core-cpp-client\src\assets\Debug\assets.lib;..\third-party\hakoniwa-core-cpp-client\src\conductor\Debug\conductor.lib;..\third-party\hakoniwa-core-cpp-client\core\src\Debug\hako.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/Debug/px4sim_manual.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/Debug/px4sim_manual.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4309;4514;4201;4100;4255;5999;4242;26451;4464;4866;5026;26495;4800;4061;4819;4477;4244;4245;4820;4365;4267;4623;4625;4626;5027;5045;26819;26812;4668;4996;5039</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\third-party\hakoniwa-core-cpp-client\src\assets\Release\assets.lib;..\third-party\hakoniwa-core-cpp-client\src\conductor\Release\conductor.lib;..\third-party\hakoniwa-core-cpp-client\core\src\Release\hako.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/Release/px4sim_manual.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/Release/px4sim_manual.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4309;4514;4201;4100;4255;5999;4242;26451;4464;4866;5026;26495;4800;4061;4819;4477;4244;4245;4820;4365;4267;4623;4625;4626;5027;5045;26819;26812;4668;4996;5039</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\third-party\hakoniwa-core-cpp-client\src\assets\MinSizeRel\assets.lib;..\third-party\hakoniwa-core-cpp-client\src\conductor\MinSizeRel\conductor.lib;..\third-party\hakoniwa-core-cpp-client\core\src\MinSizeRel\hako.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/MinSizeRel/px4sim_manual.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/MinSizeRel/px4sim_manual.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4309;4514;4201;4100;4255;5999;4242;26451;4464;4866;5026;26495;4800;4061;4819;4477;4244;4245;4820;4365;4267;4623;4625;4626;5027;5045;26819;26812;4668;4996;5039</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\src\include;\usr\local\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-ros2pdu\pdu\types;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\include;C:\hakoniwa\hakoniwa-px4sim\hakoniwa\..\drone_physics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\third-party\hakoniwa-core-cpp-client\src\assets\RelWithDebInfo\assets.lib;..\third-party\hakoniwa-core-cpp-client\src\conductor\RelWithDebInfo\conductor.lib;..\third-party\hakoniwa-core-cpp-client\core\src\RelWithDebInfo\hako.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/RelWithDebInfo/px4sim_manual.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/RelWithDebInfo/px4sim_manual.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/hakoniwa/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Apps\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/hakoniwa/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Apps\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/hakoniwa/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Apps\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/hakoniwa/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Apps\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\FetchContent.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\px4sim_manual.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\ZERO_CHECK.vcxproj">
+      <Project>{81FA7A55-4DF2-303B-9E08-334EA47E9C2C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\assets\assets.vcxproj">
+      <Project>{B458F9AE-F378-3B59-85B4-2B68F53ADDE1}</Project>
+      <Name>assets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\conductor\conductor.vcxproj">
+      <Project>{82FD3C28-1E6E-3684-B9B0-4350E755B7A3}</Project>
+      <Name>conductor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako.vcxproj">
+      <Project>{CAAF6FFF-7158-3699-8BA7-23A61E19C786}</Project>
+      <Name>hako</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

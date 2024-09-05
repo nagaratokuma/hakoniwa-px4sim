@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\comm\tcp_connector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\mavlink\mavlink_dump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\mavlink\mavlink_decoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\mavlink\mavlink_encoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\hako\pdu\hako_pdu_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\src\hako_capi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\hako\runner\hako_px4_master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\threads\px4sim_thread_receiver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\threads\px4sim_thread_sender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\drone_physics\body_physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\drone_physics\rotor_physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\drone_physics\drone_physics_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\assets\drone\controller\drone_pid_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\assets\drone\controller\sample_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\assets\drone\aircraft\aircraft_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\utils\hako_params.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\utils\hako_module_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\modules\hako_phys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\modules\hako_sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\modules\hako_pid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\modules\hako_ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\modules\hako_ucw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\px4sim_ucw_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\utils\hako_osdep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0D6F3CE5-2229-356A-80E5-A7EE286DF6B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C10AFA13-3AF1-3A15-BAA9-15633B74BF8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

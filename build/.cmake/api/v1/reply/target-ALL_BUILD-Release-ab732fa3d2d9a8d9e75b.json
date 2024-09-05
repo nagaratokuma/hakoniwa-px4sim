@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "hako-cmd::@ff80e629145bd216c045"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@ff80e629145bd216c045",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

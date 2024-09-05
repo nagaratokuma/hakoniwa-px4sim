@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"drone_sensors/sensors/gyro/vendor/hakogyro/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "hakogyro::@6503b6e4e473d5853e0c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6503b6e4e473d5853e0c",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+		"source" : "drone_sensors/sensors/gyro/vendor/hakogyro"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

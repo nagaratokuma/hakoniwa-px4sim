@@ -1,0 +1,60 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"drone_physics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "acctest::@93759e6e60e2da30477e"
+		},
+		{
+			"id" : "utest::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "ltest::@93759e6e60e2da30477e"
+		},
+		{
+			"id" : "drone_physics::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "examples::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "cexamples::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "drone_physics_c::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "drone_physics_matlab::@93759e6e60e2da30477e"
+		},
+		{
+			"id" : "ctest::@4e7ffce41487655d0f12"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@4e7ffce41487655d0f12",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "drone_physics",
+		"source" : "drone_physics"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

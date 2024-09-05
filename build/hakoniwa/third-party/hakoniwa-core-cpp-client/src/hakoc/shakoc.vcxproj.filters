@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\src\hako_capi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\hako_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\hako_asset_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\hako_simevent_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\hako_master_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\core\simulation\time\hako_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\core\rpc\hako_internal_rpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\hako_sem_flock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\hako_shared_memory_mmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\win\hako_mmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\win\hako_flock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\hako_shared_memory_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_share\impl\win\os_file_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako\utils\hako_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C10AFA13-3AF1-3A15-BAA9-15633B74BF8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

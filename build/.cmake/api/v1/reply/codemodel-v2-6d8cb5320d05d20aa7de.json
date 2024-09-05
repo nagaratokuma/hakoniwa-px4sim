@@ -1,0 +1,5368 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						21,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"build" : "drone_physics",
+					"jsonFile" : "directory-drone_physics-Debug-501c87f4119ccd721cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "drone_physics",
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"build" : "matlab-if",
+					"jsonFile" : "directory-matlab-if-Debug-f0068d7211a6f1855175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "matlab-if",
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "hakoniwa",
+					"childIndexes" : 
+					[
+						4,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa-Debug-ef65ddfd4b864df194dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "hakoniwa",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"childIndexes" : 
+					[
+						5,
+						12,
+						13,
+						14,
+						15,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client-Debug-55cacbef064658903a54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core",
+					"childIndexes" : 
+					[
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core-Debug-4983ac429a5914893562.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.src-Debug-68df552ed87487b79a04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Debug-b992325f012a7585f532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "build/_deps/json-src",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample-Debug-395dbcc9c17366956561.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-master-Debug-87b9e43d8d8b09de8664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-asset-Debug-89991b1d078b31d78d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-cmd-Debug-3056b4c43c8c009e411f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.hakoc-Debug-8a17aaf03ead69d7ec9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.assets-Debug-8388c8fe8007144bd092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 10,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.conductor-Debug-329e5b0e7d7f99dd4c9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 11,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"childIndexes" : 
+					[
+						16
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings-Debug-7186ff93029189aca22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 12,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings.python-Debug-965a802f8748cd589106.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 13,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples",
+					"childIndexes" : 
+					[
+						18,
+						19
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples-Debug-422b486a249e57d502a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.hello_world-Debug-97d2798565cdd25e9370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 14,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.pdu_communication-Debug-555cb01fad45ca739320.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 15,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "hakoniwa/src",
+					"jsonFile" : "directory-hakoniwa.src-Debug-6831099327fd14cf97d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "hakoniwa/src",
+					"targetIndexes" : 
+					[
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"build" : "drone_control",
+					"childIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-drone_control-Debug-2615beb57f99f071ac24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "drone_control",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT3_5",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT3_5-Debug-0d3913dc8daf82b135a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 17,
+					"source" : "drone_control/workspace/ChatGPT3_5",
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT4",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT4-Debug-e489f771f6970c527fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 18,
+					"source" : "drone_control/workspace/ChatGPT4",
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"build" : "drone_control/workspace/DroneAvator",
+					"jsonFile" : "directory-drone_control.workspace.DroneAvator-Debug-489f71e3eef79ff3bedc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 19,
+					"source" : "drone_control/workspace/DroneAvator",
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"build" : "drone_control/workspace/FlightController",
+					"jsonFile" : "directory-drone_control.workspace.FlightController-Debug-fca49fa3a473d39b1c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "drone_control/workspace/FlightController",
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"build" : "drone_control/workspace/Gemini",
+					"jsonFile" : "directory-drone_control.workspace.Gemini-Debug-a3fa00047b2f6b8c765f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 21,
+					"source" : "drone_control/workspace/Gemini",
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"build" : "drone_control/workspace/RadioController",
+					"jsonFile" : "directory-drone_control.workspace.RadioController-Debug-435c24ebb1c86d529e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 22,
+					"source" : "drone_control/workspace/RadioController",
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"build" : "drone_sensors",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-drone_sensors-Debug-1b07558a388a873a2023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drone_sensors"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-drone_sensors.sensors.gyro-Debug-153128b5410601b5a594.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 23,
+					"source" : "drone_sensors/sensors/gyro"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"jsonFile" : "directory-drone_sensors.sensors.gyro.vendor.hakogyro-Debug-341d8af56e882310af85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 24,
+					"source" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						16,
+						23
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hakoniwa-px4sim-root",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						20
+					],
+					"name" : "hakoniwa-px4sim",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						8,
+						17
+					],
+					"name" : "hakoniwa-core",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						16,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "hakoniwa-master",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "hakoniwa-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "hakoniwa-command",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "hako-client",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "hako-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "hako-conductor",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "hakoniwa_multi_language_project",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "hakoniwa_python_project",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "hako-examples-hello_world",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "hako-examples-pdu-communication",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "ChatGPT3_5",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "ChatGPT4",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "DroneAvator",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "FlightController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "Gemini",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RadioController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						24
+					],
+					"directoryIndexes" : 
+					[
+						28,
+						29
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "hakogyro",
+					"parentIndex" : 23,
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ALL_BUILD-Debug-5f09347f3d0a8087e263.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-398315450634b852c5d9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-ALL_BUILD-Debug-b21c10968106ca3b8429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-ALL_BUILD-Debug-8caa1f679cf6997004bf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@4891c92b84def150509a",
+					"jsonFile" : "target-ALL_BUILD-Debug-20ff7dc40df22283a928.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@3b0d6b8ec84fb83d5513",
+					"jsonFile" : "target-ALL_BUILD-Debug-4daa90193b5cb2d86672.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-ALL_BUILD-Debug-bc00a8672e5cc9643f24.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-ALL_BUILD-Debug-0493f474656cbc20d7c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-ALL_BUILD-Debug-e7c9b6212f6fca6ad071.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-ALL_BUILD-Debug-3bea6e771dc28ea6c0aa.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-ALL_BUILD-Debug-bcc58e269d25c1ffc689.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ALL_BUILD-Debug-7d94ba11af776db8613f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7280941977ab30918b6a",
+					"jsonFile" : "target-ALL_BUILD-Debug-ffb70e5839d02e12ddb7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-ALL_BUILD-Debug-49241a6d74152f28a2fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@77e3fe88cb9e614b88b4",
+					"jsonFile" : "target-ALL_BUILD-Debug-60237f804bfa2ff085ca.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-ALL_BUILD-Debug-39995b1770a333b04c52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9a38febf42621cf6ede4",
+					"jsonFile" : "target-ALL_BUILD-Debug-645608e58ce6e7b96ebd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff80e629145bd216c045",
+					"jsonFile" : "target-ALL_BUILD-Debug-ab732fa3d2d9a8d9e75b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-ALL_BUILD-Debug-6b1ceb9a1fe7eb5855b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ALL_BUILD-Debug-dad2175c983c545155a2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@babbc902166dddee62fa",
+					"jsonFile" : "target-ALL_BUILD-Debug-ef2cac78cafc2647a8e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@1f73e43ed239fe3d59ae",
+					"jsonFile" : "target-ALL_BUILD-Debug-e75019a8fdef92c01891.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@094c76f984f9d36ad96d",
+					"jsonFile" : "target-ALL_BUILD-Debug-f94c910e168171f63111.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ChatGPT3_5::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ChatGPT3_5-Debug-878952193e1aed144d89.json",
+					"name" : "ChatGPT3_5",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ChatGPT4::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ChatGPT4-Debug-8c63a67e123e520122dd.json",
+					"name" : "ChatGPT4",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "DroneAvator::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-DroneAvator-Debug-8676b28edcb6ed604440.json",
+					"name" : "DroneAvator",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "FlightController::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-FlightController-Debug-0350063d0e07894fa014.json",
+					"name" : "FlightController",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "Gemini::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-Gemini-Debug-0fa1671b3b22acd2c324.json",
+					"name" : "Gemini",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "RadioController::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-RadioController-Debug-d6fbe4c8d8a3df509046.json",
+					"name" : "RadioController",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-1369a1fa3cee4d9e6106.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "acctest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-acctest-Debug-c0c56a8ad019e559a88f.json",
+					"name" : "acctest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_controller::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_controller-Debug-be42c7e6265486284cb0.json",
+					"name" : "asset_controller",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_plant::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_plant-Debug-b50182157875df2addd7.json",
+					"name" : "asset_plant",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "assets::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-assets-Debug-32bf59289e6345853b8e.json",
+					"name" : "assets",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cexamples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-cexamples-Debug-736120c02abe5d81f1cf.json",
+					"name" : "cexamples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "conductor::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-conductor-Debug-f7704dda5c27ad506f4a.json",
+					"name" : "conductor",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ctest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ctest-Debug-5946cf4867029d3c4ecd.json",
+					"name" : "ctest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics-Debug-44373612e8271c98dc6c.json",
+					"name" : "drone_physics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics_c::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics_c-Debug-dab1b0880329b7467366.json",
+					"name" : "drone_physics_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "drone_physics_matlab::@93759e6e60e2da30477e",
+					"jsonFile" : "target-drone_physics_matlab-Debug-bc2bc1d0b6407c0ff8ef.json",
+					"name" : "drone_physics_matlab",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "examples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-examples-Debug-c2311cb829852bee865e.json",
+					"name" : "examples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hako::@cc84f1c69ca16593a2d4",
+					"jsonFile" : "target-hako-Debug-2fa83d1d00fb7ea8f955.json",
+					"name" : "hako",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "hako-asset::@7280941977ab30918b6a",
+					"jsonFile" : "target-hako-asset-Debug-113ebcf8cb7a1612a2bd.json",
+					"name" : "hako-asset",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hako-cmd::@ff80e629145bd216c045",
+					"jsonFile" : "target-hako-cmd-Debug-02090d7f2db9166b3514.json",
+					"name" : "hako-cmd",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "hako-master::@4891c92b84def150509a",
+					"jsonFile" : "target-hako-master-Debug-7fc24ef65e4d2561c1e8.json",
+					"name" : "hako-master",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-Debug-8e71dc984b7423b77aeb.json",
+					"name" : "hako-px4sim",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim-ucw::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-ucw-Debug-f090eadafb0ff25cee99.json",
+					"name" : "hako-px4sim-ucw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hako_asset_python::@babbc902166dddee62fa",
+					"jsonFile" : "target-hako_asset_python-Debug-4b73732cd672a91f6526.json",
+					"name" : "hako_asset_python",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoarun::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoarun-Debug-fee41ccd687b23e0b431.json",
+					"name" : "hakoarun",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoc-Debug-a8623acf8df782ce5896.json",
+					"name" : "hakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hakogyro::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-hakogyro-Debug-e5e8806f3772aac7cd93.json",
+					"name" : "hakogyro",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hello_world::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-hello_world-Debug-d2a93bafed12da5afe15.json",
+					"name" : "hello_world",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ltest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-ltest-Debug-b1aceecd89a3e4241502.json",
+					"name" : "ltest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mtest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-mtest-Debug-60c6a51702ad55b04bec.json",
+					"name" : "mtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "px4sim_manual::@659921cf0e90470eb453",
+					"jsonFile" : "target-px4sim_manual-Debug-ad789afe8d7835a67e77.json",
+					"name" : "px4sim_manual",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "shakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-shakoc-Debug-d9db1193407a01b111e2.json",
+					"name" : "shakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-utest-Debug-678a76450421231c5721.json",
+					"name" : "utest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vtest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-vtest-Debug-b6b54728894bd83d929c.json",
+					"name" : "vtest",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						21,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"build" : "drone_physics",
+					"jsonFile" : "directory-drone_physics-Release-501c87f4119ccd721cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "drone_physics",
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"build" : "matlab-if",
+					"jsonFile" : "directory-matlab-if-Release-f0068d7211a6f1855175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "matlab-if",
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "hakoniwa",
+					"childIndexes" : 
+					[
+						4,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa-Release-ef65ddfd4b864df194dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "hakoniwa",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"childIndexes" : 
+					[
+						5,
+						12,
+						13,
+						14,
+						15,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client-Release-55cacbef064658903a54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core",
+					"childIndexes" : 
+					[
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core-Release-4983ac429a5914893562.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.src-Release-68df552ed87487b79a04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-Release-b992325f012a7585f532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "build/_deps/json-src",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample-Release-395dbcc9c17366956561.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-master-Release-87b9e43d8d8b09de8664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-asset-Release-89991b1d078b31d78d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-cmd-Release-3056b4c43c8c009e411f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.hakoc-Release-8a17aaf03ead69d7ec9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.assets-Release-8388c8fe8007144bd092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 10,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.conductor-Release-329e5b0e7d7f99dd4c9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 11,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"childIndexes" : 
+					[
+						16
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings-Release-7186ff93029189aca22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 12,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings.python-Release-965a802f8748cd589106.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 13,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples",
+					"childIndexes" : 
+					[
+						18,
+						19
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples-Release-422b486a249e57d502a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.hello_world-Release-97d2798565cdd25e9370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 14,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.pdu_communication-Release-555cb01fad45ca739320.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 15,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "hakoniwa/src",
+					"jsonFile" : "directory-hakoniwa.src-Release-6831099327fd14cf97d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "hakoniwa/src",
+					"targetIndexes" : 
+					[
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"build" : "drone_control",
+					"childIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-drone_control-Release-2615beb57f99f071ac24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "drone_control",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT3_5",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT3_5-Release-0d3913dc8daf82b135a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 17,
+					"source" : "drone_control/workspace/ChatGPT3_5",
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT4",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT4-Release-e489f771f6970c527fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 18,
+					"source" : "drone_control/workspace/ChatGPT4",
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"build" : "drone_control/workspace/DroneAvator",
+					"jsonFile" : "directory-drone_control.workspace.DroneAvator-Release-489f71e3eef79ff3bedc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 19,
+					"source" : "drone_control/workspace/DroneAvator",
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"build" : "drone_control/workspace/FlightController",
+					"jsonFile" : "directory-drone_control.workspace.FlightController-Release-fca49fa3a473d39b1c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "drone_control/workspace/FlightController",
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"build" : "drone_control/workspace/Gemini",
+					"jsonFile" : "directory-drone_control.workspace.Gemini-Release-a3fa00047b2f6b8c765f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 21,
+					"source" : "drone_control/workspace/Gemini",
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"build" : "drone_control/workspace/RadioController",
+					"jsonFile" : "directory-drone_control.workspace.RadioController-Release-435c24ebb1c86d529e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 22,
+					"source" : "drone_control/workspace/RadioController",
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"build" : "drone_sensors",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-drone_sensors-Release-1b07558a388a873a2023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drone_sensors"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-drone_sensors.sensors.gyro-Release-153128b5410601b5a594.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 23,
+					"source" : "drone_sensors/sensors/gyro"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"jsonFile" : "directory-drone_sensors.sensors.gyro.vendor.hakogyro-Release-341d8af56e882310af85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 24,
+					"source" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						16,
+						23
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hakoniwa-px4sim-root",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						20
+					],
+					"name" : "hakoniwa-px4sim",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						8,
+						17
+					],
+					"name" : "hakoniwa-core",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						16,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "hakoniwa-master",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "hakoniwa-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "hakoniwa-command",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "hako-client",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "hako-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "hako-conductor",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "hakoniwa_multi_language_project",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "hakoniwa_python_project",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "hako-examples-hello_world",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "hako-examples-pdu-communication",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "ChatGPT3_5",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "ChatGPT4",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "DroneAvator",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "FlightController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "Gemini",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RadioController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						24
+					],
+					"directoryIndexes" : 
+					[
+						28,
+						29
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "hakogyro",
+					"parentIndex" : 23,
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ALL_BUILD-Release-5f09347f3d0a8087e263.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-398315450634b852c5d9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-ALL_BUILD-Release-b21c10968106ca3b8429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-ALL_BUILD-Release-8caa1f679cf6997004bf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@4891c92b84def150509a",
+					"jsonFile" : "target-ALL_BUILD-Release-20ff7dc40df22283a928.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@3b0d6b8ec84fb83d5513",
+					"jsonFile" : "target-ALL_BUILD-Release-4daa90193b5cb2d86672.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-ALL_BUILD-Release-bc00a8672e5cc9643f24.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-ALL_BUILD-Release-0493f474656cbc20d7c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-ALL_BUILD-Release-e7c9b6212f6fca6ad071.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-ALL_BUILD-Release-3bea6e771dc28ea6c0aa.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-ALL_BUILD-Release-bcc58e269d25c1ffc689.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ALL_BUILD-Release-7d94ba11af776db8613f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7280941977ab30918b6a",
+					"jsonFile" : "target-ALL_BUILD-Release-ffb70e5839d02e12ddb7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-ALL_BUILD-Release-49241a6d74152f28a2fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@77e3fe88cb9e614b88b4",
+					"jsonFile" : "target-ALL_BUILD-Release-60237f804bfa2ff085ca.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-ALL_BUILD-Release-39995b1770a333b04c52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9a38febf42621cf6ede4",
+					"jsonFile" : "target-ALL_BUILD-Release-645608e58ce6e7b96ebd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff80e629145bd216c045",
+					"jsonFile" : "target-ALL_BUILD-Release-ab732fa3d2d9a8d9e75b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-ALL_BUILD-Release-6b1ceb9a1fe7eb5855b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ALL_BUILD-Release-dad2175c983c545155a2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@babbc902166dddee62fa",
+					"jsonFile" : "target-ALL_BUILD-Release-ef2cac78cafc2647a8e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@1f73e43ed239fe3d59ae",
+					"jsonFile" : "target-ALL_BUILD-Release-e75019a8fdef92c01891.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@094c76f984f9d36ad96d",
+					"jsonFile" : "target-ALL_BUILD-Release-f94c910e168171f63111.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ChatGPT3_5::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ChatGPT3_5-Release-1ef44f0103d9f8720617.json",
+					"name" : "ChatGPT3_5",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ChatGPT4::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ChatGPT4-Release-ff0907a46eee0be678ce.json",
+					"name" : "ChatGPT4",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "DroneAvator::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-DroneAvator-Release-5864b447de3c2a43e0b2.json",
+					"name" : "DroneAvator",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "FlightController::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-FlightController-Release-7ad777c256cf68edf31b.json",
+					"name" : "FlightController",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "Gemini::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-Gemini-Release-66cc80a38eb54b640cdd.json",
+					"name" : "Gemini",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "RadioController::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-RadioController-Release-1684579d57d922a8a675.json",
+					"name" : "RadioController",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-1369a1fa3cee4d9e6106.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "acctest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-acctest-Release-2b56435cdc6893076893.json",
+					"name" : "acctest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_controller::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_controller-Release-1299efaa4a0a32c8a7e4.json",
+					"name" : "asset_controller",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_plant::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_plant-Release-19d5cd59281957127e1c.json",
+					"name" : "asset_plant",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "assets::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-assets-Release-02ac24a0edd391a3270c.json",
+					"name" : "assets",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cexamples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-cexamples-Release-85371c8b7f35bc1b5475.json",
+					"name" : "cexamples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "conductor::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-conductor-Release-42dc75cbff9b80b01b0a.json",
+					"name" : "conductor",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ctest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ctest-Release-87ec987b525e30832a52.json",
+					"name" : "ctest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics-Release-258cd35a1beb9ba6b8f7.json",
+					"name" : "drone_physics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics_c::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics_c-Release-f1ddf7188f314811a391.json",
+					"name" : "drone_physics_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "drone_physics_matlab::@93759e6e60e2da30477e",
+					"jsonFile" : "target-drone_physics_matlab-Release-7f0cbb5461c2e6c52f72.json",
+					"name" : "drone_physics_matlab",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "examples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-examples-Release-98ad8f6313e8c1de3aa9.json",
+					"name" : "examples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hako::@cc84f1c69ca16593a2d4",
+					"jsonFile" : "target-hako-Release-c5f93a614e087dac78e3.json",
+					"name" : "hako",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "hako-asset::@7280941977ab30918b6a",
+					"jsonFile" : "target-hako-asset-Release-9c4650350530d20cbdc4.json",
+					"name" : "hako-asset",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hako-cmd::@ff80e629145bd216c045",
+					"jsonFile" : "target-hako-cmd-Release-b0aa98c6e47262334941.json",
+					"name" : "hako-cmd",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "hako-master::@4891c92b84def150509a",
+					"jsonFile" : "target-hako-master-Release-cb988da50015b27c5892.json",
+					"name" : "hako-master",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-Release-f699dca6c21e0cabe3ed.json",
+					"name" : "hako-px4sim",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim-ucw::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-ucw-Release-6c5dd58a1c5e9e54fafa.json",
+					"name" : "hako-px4sim-ucw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hako_asset_python::@babbc902166dddee62fa",
+					"jsonFile" : "target-hako_asset_python-Release-6045eb88b2824b9e2055.json",
+					"name" : "hako_asset_python",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoarun::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoarun-Release-8c07e5c7261fb76a7528.json",
+					"name" : "hakoarun",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoc-Release-98bc309da7c1632b7a26.json",
+					"name" : "hakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hakogyro::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-hakogyro-Release-17e0b1fe8b1fc26e935d.json",
+					"name" : "hakogyro",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hello_world::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-hello_world-Release-a3a0220201b7c5fa29ad.json",
+					"name" : "hello_world",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ltest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-ltest-Release-0fb38d66d26cabdb91e1.json",
+					"name" : "ltest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mtest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-mtest-Release-60c6a51702ad55b04bec.json",
+					"name" : "mtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "px4sim_manual::@659921cf0e90470eb453",
+					"jsonFile" : "target-px4sim_manual-Release-54f40a5e83f2108057ce.json",
+					"name" : "px4sim_manual",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "shakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-shakoc-Release-7899c6c1575293a42b7f.json",
+					"name" : "shakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-utest-Release-08953f4a4f6975bc03f4.json",
+					"name" : "utest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vtest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-vtest-Release-b6b54728894bd83d929c.json",
+					"name" : "vtest",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						21,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"build" : "drone_physics",
+					"jsonFile" : "directory-drone_physics-MinSizeRel-501c87f4119ccd721cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "drone_physics",
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"build" : "matlab-if",
+					"jsonFile" : "directory-matlab-if-MinSizeRel-f0068d7211a6f1855175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "matlab-if",
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "hakoniwa",
+					"childIndexes" : 
+					[
+						4,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa-MinSizeRel-ef65ddfd4b864df194dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "hakoniwa",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"childIndexes" : 
+					[
+						5,
+						12,
+						13,
+						14,
+						15,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client-MinSizeRel-55cacbef064658903a54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core",
+					"childIndexes" : 
+					[
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core-MinSizeRel-4983ac429a5914893562.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.src-MinSizeRel-68df552ed87487b79a04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-MinSizeRel-b992325f012a7585f532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "build/_deps/json-src",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample-MinSizeRel-395dbcc9c17366956561.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-master-MinSizeRel-87b9e43d8d8b09de8664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-asset-MinSizeRel-89991b1d078b31d78d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-cmd-MinSizeRel-3056b4c43c8c009e411f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.hakoc-MinSizeRel-8a17aaf03ead69d7ec9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.assets-MinSizeRel-8388c8fe8007144bd092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 10,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.conductor-MinSizeRel-329e5b0e7d7f99dd4c9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 11,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"childIndexes" : 
+					[
+						16
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings-MinSizeRel-7186ff93029189aca22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 12,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings.python-MinSizeRel-965a802f8748cd589106.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 13,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples",
+					"childIndexes" : 
+					[
+						18,
+						19
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples-MinSizeRel-422b486a249e57d502a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.hello_world-MinSizeRel-97d2798565cdd25e9370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 14,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.pdu_communication-MinSizeRel-555cb01fad45ca739320.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 15,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "hakoniwa/src",
+					"jsonFile" : "directory-hakoniwa.src-MinSizeRel-6831099327fd14cf97d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "hakoniwa/src",
+					"targetIndexes" : 
+					[
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"build" : "drone_control",
+					"childIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-drone_control-MinSizeRel-2615beb57f99f071ac24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "drone_control",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT3_5",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT3_5-MinSizeRel-0d3913dc8daf82b135a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 17,
+					"source" : "drone_control/workspace/ChatGPT3_5",
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT4",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT4-MinSizeRel-e489f771f6970c527fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 18,
+					"source" : "drone_control/workspace/ChatGPT4",
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"build" : "drone_control/workspace/DroneAvator",
+					"jsonFile" : "directory-drone_control.workspace.DroneAvator-MinSizeRel-489f71e3eef79ff3bedc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 19,
+					"source" : "drone_control/workspace/DroneAvator",
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"build" : "drone_control/workspace/FlightController",
+					"jsonFile" : "directory-drone_control.workspace.FlightController-MinSizeRel-fca49fa3a473d39b1c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "drone_control/workspace/FlightController",
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"build" : "drone_control/workspace/Gemini",
+					"jsonFile" : "directory-drone_control.workspace.Gemini-MinSizeRel-a3fa00047b2f6b8c765f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 21,
+					"source" : "drone_control/workspace/Gemini",
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"build" : "drone_control/workspace/RadioController",
+					"jsonFile" : "directory-drone_control.workspace.RadioController-MinSizeRel-435c24ebb1c86d529e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 22,
+					"source" : "drone_control/workspace/RadioController",
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"build" : "drone_sensors",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-drone_sensors-MinSizeRel-1b07558a388a873a2023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drone_sensors"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-drone_sensors.sensors.gyro-MinSizeRel-153128b5410601b5a594.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 23,
+					"source" : "drone_sensors/sensors/gyro"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"jsonFile" : "directory-drone_sensors.sensors.gyro.vendor.hakogyro-MinSizeRel-341d8af56e882310af85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 24,
+					"source" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						16,
+						23
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hakoniwa-px4sim-root",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						20
+					],
+					"name" : "hakoniwa-px4sim",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						8,
+						17
+					],
+					"name" : "hakoniwa-core",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						16,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "hakoniwa-master",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "hakoniwa-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "hakoniwa-command",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "hako-client",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "hako-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "hako-conductor",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "hakoniwa_multi_language_project",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "hakoniwa_python_project",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "hako-examples-hello_world",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "hako-examples-pdu-communication",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "ChatGPT3_5",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "ChatGPT4",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "DroneAvator",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "FlightController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "Gemini",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RadioController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						24
+					],
+					"directoryIndexes" : 
+					[
+						28,
+						29
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "hakogyro",
+					"parentIndex" : 23,
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5f09347f3d0a8087e263.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-398315450634b852c5d9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b21c10968106ca3b8429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8caa1f679cf6997004bf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@4891c92b84def150509a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-20ff7dc40df22283a928.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@3b0d6b8ec84fb83d5513",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4daa90193b5cb2d86672.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bc00a8672e5cc9643f24.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0493f474656cbc20d7c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e7c9b6212f6fca6ad071.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-3bea6e771dc28ea6c0aa.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-bcc58e269d25c1ffc689.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7d94ba11af776db8613f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7280941977ab30918b6a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ffb70e5839d02e12ddb7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-49241a6d74152f28a2fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@77e3fe88cb9e614b88b4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-60237f804bfa2ff085ca.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-39995b1770a333b04c52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9a38febf42621cf6ede4",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-645608e58ce6e7b96ebd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff80e629145bd216c045",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ab732fa3d2d9a8d9e75b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6b1ceb9a1fe7eb5855b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-dad2175c983c545155a2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@babbc902166dddee62fa",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ef2cac78cafc2647a8e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@1f73e43ed239fe3d59ae",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e75019a8fdef92c01891.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@094c76f984f9d36ad96d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f94c910e168171f63111.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ChatGPT3_5::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ChatGPT3_5-MinSizeRel-72c73dcbc8ce96cd6c4a.json",
+					"name" : "ChatGPT3_5",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ChatGPT4::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ChatGPT4-MinSizeRel-1581d391321eb3e33b09.json",
+					"name" : "ChatGPT4",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "DroneAvator::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-DroneAvator-MinSizeRel-57dac29de1967116f3fd.json",
+					"name" : "DroneAvator",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "FlightController::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-FlightController-MinSizeRel-d45dd35d2871505878bf.json",
+					"name" : "FlightController",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "Gemini::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-Gemini-MinSizeRel-56f04300117b74cb8699.json",
+					"name" : "Gemini",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "RadioController::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-RadioController-MinSizeRel-bce786efb0fda3477f00.json",
+					"name" : "RadioController",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-1369a1fa3cee4d9e6106.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "acctest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-acctest-MinSizeRel-1fd257b6e9fd50cf65c3.json",
+					"name" : "acctest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_controller::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_controller-MinSizeRel-44699ec408f6fc97c65c.json",
+					"name" : "asset_controller",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_plant::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_plant-MinSizeRel-2b2c6b97b99e3609a227.json",
+					"name" : "asset_plant",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "assets::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-assets-MinSizeRel-f828e708b99549ae717a.json",
+					"name" : "assets",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cexamples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-cexamples-MinSizeRel-8421eef805bd3c9777e7.json",
+					"name" : "cexamples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "conductor::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-conductor-MinSizeRel-4b740d417f39f61d63a5.json",
+					"name" : "conductor",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ctest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ctest-MinSizeRel-1329489451956e23dacc.json",
+					"name" : "ctest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics-MinSizeRel-2cd0741051b1feb97362.json",
+					"name" : "drone_physics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics_c::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics_c-MinSizeRel-2079e2c016992ee89d70.json",
+					"name" : "drone_physics_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "drone_physics_matlab::@93759e6e60e2da30477e",
+					"jsonFile" : "target-drone_physics_matlab-MinSizeRel-6e7325bbcae7ac6b5376.json",
+					"name" : "drone_physics_matlab",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "examples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-examples-MinSizeRel-765197f936537c94a5a9.json",
+					"name" : "examples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hako::@cc84f1c69ca16593a2d4",
+					"jsonFile" : "target-hako-MinSizeRel-9b95eefd31947758a99c.json",
+					"name" : "hako",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "hako-asset::@7280941977ab30918b6a",
+					"jsonFile" : "target-hako-asset-MinSizeRel-117e877eebe15ab7f3f8.json",
+					"name" : "hako-asset",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hako-cmd::@ff80e629145bd216c045",
+					"jsonFile" : "target-hako-cmd-MinSizeRel-4af03602204c58ff1dc2.json",
+					"name" : "hako-cmd",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "hako-master::@4891c92b84def150509a",
+					"jsonFile" : "target-hako-master-MinSizeRel-afd6b750593681ebd9f1.json",
+					"name" : "hako-master",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-MinSizeRel-90687ad208f773b0800b.json",
+					"name" : "hako-px4sim",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim-ucw::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-ucw-MinSizeRel-ec1f1e82caeb601c03c5.json",
+					"name" : "hako-px4sim-ucw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hako_asset_python::@babbc902166dddee62fa",
+					"jsonFile" : "target-hako_asset_python-MinSizeRel-e85c93209becd1600e92.json",
+					"name" : "hako_asset_python",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoarun::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoarun-MinSizeRel-55f6fb61064486df775d.json",
+					"name" : "hakoarun",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoc-MinSizeRel-4ccc5234b13d346778d3.json",
+					"name" : "hakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hakogyro::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-hakogyro-MinSizeRel-fcbb54693a710a938800.json",
+					"name" : "hakogyro",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hello_world::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-hello_world-MinSizeRel-03742460ddfe3342d2fc.json",
+					"name" : "hello_world",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ltest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-ltest-MinSizeRel-1dc2f7f2a6d70a7a65b7.json",
+					"name" : "ltest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mtest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-mtest-MinSizeRel-60c6a51702ad55b04bec.json",
+					"name" : "mtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "px4sim_manual::@659921cf0e90470eb453",
+					"jsonFile" : "target-px4sim_manual-MinSizeRel-5eb14388a67d8dc4066f.json",
+					"name" : "px4sim_manual",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "shakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-shakoc-MinSizeRel-b773465fd5cdc7466480.json",
+					"name" : "shakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-utest-MinSizeRel-c0701a980eb8a3b0286a.json",
+					"name" : "utest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vtest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-vtest-MinSizeRel-b6b54728894bd83d929c.json",
+					"name" : "vtest",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						21,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"build" : "drone_physics",
+					"jsonFile" : "directory-drone_physics-RelWithDebInfo-501c87f4119ccd721cb2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "drone_physics",
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"build" : "matlab-if",
+					"jsonFile" : "directory-matlab-if-RelWithDebInfo-f0068d7211a6f1855175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "matlab-if",
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "hakoniwa",
+					"childIndexes" : 
+					[
+						4,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa-RelWithDebInfo-ef65ddfd4b864df194dd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "hakoniwa",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"childIndexes" : 
+					[
+						5,
+						12,
+						13,
+						14,
+						15,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client-RelWithDebInfo-55cacbef064658903a54.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core",
+					"childIndexes" : 
+					[
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core-RelWithDebInfo-4983ac429a5914893562.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.src-RelWithDebInfo-68df552ed87487b79a04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/src",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "_deps/json-build",
+					"jsonFile" : "directory-_deps.json-build-RelWithDebInfo-b992325f012a7585f532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "build/_deps/json-src",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample-RelWithDebInfo-395dbcc9c17366956561.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-master-RelWithDebInfo-87b9e43d8d8b09de8664.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-master",
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-asset-RelWithDebInfo-89991b1d078b31d78d3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-asset",
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.core.sample.base-procs.hako-cmd-RelWithDebInfo-3056b4c43c8c009e411f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/core/sample/base-procs/hako-cmd",
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.hakoc-RelWithDebInfo-8a17aaf03ead69d7ec9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 9,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.assets-RelWithDebInfo-8388c8fe8007144bd092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 10,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/assets",
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.src.conductor-RelWithDebInfo-329e5b0e7d7f99dd4c9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 11,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/conductor",
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"childIndexes" : 
+					[
+						16
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings-RelWithDebInfo-7186ff93029189aca22e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 12,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.bindings.python-RelWithDebInfo-965a802f8748cd589106.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 13,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/bindings/python",
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples",
+					"childIndexes" : 
+					[
+						18,
+						19
+					],
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples-RelWithDebInfo-422b486a249e57d502a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples"
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.hello_world-RelWithDebInfo-97d2798565cdd25e9370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 14,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/hello_world",
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"jsonFile" : "directory-hakoniwa.third-party.hakoniwa-core-cpp-client.examples.pdu_communication-RelWithDebInfo-555cb01fad45ca739320.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 15,
+					"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/examples/pdu_communication",
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "hakoniwa/src",
+					"jsonFile" : "directory-hakoniwa.src-RelWithDebInfo-6831099327fd14cf97d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "hakoniwa/src",
+					"targetIndexes" : 
+					[
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"build" : "drone_control",
+					"childIndexes" : 
+					[
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"jsonFile" : "directory-drone_control-RelWithDebInfo-2615beb57f99f071ac24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "drone_control",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT3_5",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT3_5-RelWithDebInfo-0d3913dc8daf82b135a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 17,
+					"source" : "drone_control/workspace/ChatGPT3_5",
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"build" : "drone_control/workspace/ChatGPT4",
+					"jsonFile" : "directory-drone_control.workspace.ChatGPT4-RelWithDebInfo-e489f771f6970c527fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 18,
+					"source" : "drone_control/workspace/ChatGPT4",
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"build" : "drone_control/workspace/DroneAvator",
+					"jsonFile" : "directory-drone_control.workspace.DroneAvator-RelWithDebInfo-489f71e3eef79ff3bedc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 19,
+					"source" : "drone_control/workspace/DroneAvator",
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"build" : "drone_control/workspace/FlightController",
+					"jsonFile" : "directory-drone_control.workspace.FlightController-RelWithDebInfo-fca49fa3a473d39b1c4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 20,
+					"source" : "drone_control/workspace/FlightController",
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"build" : "drone_control/workspace/Gemini",
+					"jsonFile" : "directory-drone_control.workspace.Gemini-RelWithDebInfo-a3fa00047b2f6b8c765f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 21,
+					"source" : "drone_control/workspace/Gemini",
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"build" : "drone_control/workspace/RadioController",
+					"jsonFile" : "directory-drone_control.workspace.RadioController-RelWithDebInfo-435c24ebb1c86d529e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 22,
+					"source" : "drone_control/workspace/RadioController",
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"build" : "drone_sensors",
+					"childIndexes" : 
+					[
+						29
+					],
+					"jsonFile" : "directory-drone_sensors-RelWithDebInfo-1b07558a388a873a2023.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "drone_sensors"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro",
+					"childIndexes" : 
+					[
+						30
+					],
+					"jsonFile" : "directory-drone_sensors.sensors.gyro-RelWithDebInfo-153128b5410601b5a594.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 23,
+					"source" : "drone_sensors/sensors/gyro"
+				},
+				{
+					"build" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"jsonFile" : "directory-drone_sensors.sensors.gyro.vendor.hakogyro-RelWithDebInfo-341d8af56e882310af85.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 29,
+					"projectIndex" : 24,
+					"source" : "drone_sensors/sensors/gyro/vendor/hakogyro",
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						16,
+						23
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hakoniwa-px4sim-root",
+					"targetIndexes" : 
+					[
+						1,
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						34,
+						36,
+						37,
+						38,
+						40,
+						56,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "drone_physics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						39,
+						52,
+						53
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						20
+					],
+					"name" : "hakoniwa-px4sim",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						45,
+						46,
+						54
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15
+					],
+					"directoryIndexes" : 
+					[
+						4,
+						5,
+						6,
+						8,
+						17
+					],
+					"name" : "hakoniwa-core",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						16,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "hakoniwa-master",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						4,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "hakoniwa-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						12,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "hakoniwa-command",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						17,
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "hako-client",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8,
+						48,
+						49,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "hako-asset",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						3,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "hako-conductor",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						15,
+						35
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "hakoniwa_multi_language_project",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "hakoniwa_python_project",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						20,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "hako-examples-hello_world",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						13,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "hako-examples-pdu-communication",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						18,
+						31,
+						32
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "ChatGPT3_5",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						19,
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "ChatGPT4",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						11,
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "DroneAvator",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						10,
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "FlightController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						2,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "Gemini",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						7,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RadioController",
+					"parentIndex" : 16,
+					"targetIndexes" : 
+					[
+						6,
+						28
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						24
+					],
+					"directoryIndexes" : 
+					[
+						28,
+						29
+					],
+					"name" : "LoadableModuleProject",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "hakogyro",
+					"parentIndex" : 23,
+					"targetIndexes" : 
+					[
+						9,
+						50
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5f09347f3d0a8087e263.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-398315450634b852c5d9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b21c10968106ca3b8429.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8caa1f679cf6997004bf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@4891c92b84def150509a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-20ff7dc40df22283a928.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@3b0d6b8ec84fb83d5513",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4daa90193b5cb2d86672.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bc00a8672e5cc9643f24.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0493f474656cbc20d7c9.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e7c9b6212f6fca6ad071.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "ALL_BUILD::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-3bea6e771dc28ea6c0aa.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-bcc58e269d25c1ffc689.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7d94ba11af776db8613f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@7280941977ab30918b6a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ffb70e5839d02e12ddb7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-49241a6d74152f28a2fe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@77e3fe88cb9e614b88b4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-60237f804bfa2ff085ca.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-39995b1770a333b04c52.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@9a38febf42621cf6ede4",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-645608e58ce6e7b96ebd.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@ff80e629145bd216c045",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ab732fa3d2d9a8d9e75b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6b1ceb9a1fe7eb5855b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-dad2175c983c545155a2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@babbc902166dddee62fa",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ef2cac78cafc2647a8e6.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@1f73e43ed239fe3d59ae",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e75019a8fdef92c01891.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@094c76f984f9d36ad96d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f94c910e168171f63111.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ChatGPT3_5::@ce375a823a056ff52e8f",
+					"jsonFile" : "target-ChatGPT3_5-RelWithDebInfo-a9120d59205dd1f1679f.json",
+					"name" : "ChatGPT3_5",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ChatGPT4::@53434b7f8686e8ed2d52",
+					"jsonFile" : "target-ChatGPT4-RelWithDebInfo-d4738d5df1c2bf4c8020.json",
+					"name" : "ChatGPT4",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "DroneAvator::@1915ba50d37293cbefa8",
+					"jsonFile" : "target-DroneAvator-RelWithDebInfo-cb582b506e54f2033744.json",
+					"name" : "DroneAvator",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "FlightController::@05405a88e9acd4f2511d",
+					"jsonFile" : "target-FlightController-RelWithDebInfo-db4b7b71aa138c57c7fc.json",
+					"name" : "FlightController",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "Gemini::@ee5be7e04bf2401dffee",
+					"jsonFile" : "target-Gemini-RelWithDebInfo-730b097f61bfb2a401ed.json",
+					"name" : "Gemini",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "RadioController::@3c27c9179b1dc88a82dd",
+					"jsonFile" : "target-RadioController-RelWithDebInfo-c9f2b454e6de40737858.json",
+					"name" : "RadioController",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-1369a1fa3cee4d9e6106.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "acctest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-acctest-RelWithDebInfo-47807dfcf58a191e5bf5.json",
+					"name" : "acctest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_controller::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_controller-RelWithDebInfo-5c021ba39da2efe040d8.json",
+					"name" : "asset_controller",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "asset_plant::@cf3864cb9f76cefc1546",
+					"jsonFile" : "target-asset_plant-RelWithDebInfo-d1d29ae6fffa7161ad96.json",
+					"name" : "asset_plant",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "assets::@379ef18c027c44f35fdb",
+					"jsonFile" : "target-assets-RelWithDebInfo-3a8ff9246a76e53a093a.json",
+					"name" : "assets",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cexamples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-cexamples-RelWithDebInfo-17a3fc1019c5274a9226.json",
+					"name" : "cexamples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "conductor::@d01dfa47eaa02f0579da",
+					"jsonFile" : "target-conductor-RelWithDebInfo-a161ab078ef76339749e.json",
+					"name" : "conductor",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ctest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-ctest-RelWithDebInfo-cb10986199e3f099def4.json",
+					"name" : "ctest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics-RelWithDebInfo-868b7246d3b78859b473.json",
+					"name" : "drone_physics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "drone_physics_c::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-drone_physics_c-RelWithDebInfo-dc734e81242abf3494de.json",
+					"name" : "drone_physics_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "drone_physics_matlab::@93759e6e60e2da30477e",
+					"jsonFile" : "target-drone_physics_matlab-RelWithDebInfo-70261b7ccb6df97c4454.json",
+					"name" : "drone_physics_matlab",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "examples::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-examples-RelWithDebInfo-3ce63489228c3c441a32.json",
+					"name" : "examples",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hako::@cc84f1c69ca16593a2d4",
+					"jsonFile" : "target-hako-RelWithDebInfo-0102c34d9dec068c83b0.json",
+					"name" : "hako",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "hako-asset::@7280941977ab30918b6a",
+					"jsonFile" : "target-hako-asset-RelWithDebInfo-5c51d481e0cd8d3caa61.json",
+					"name" : "hako-asset",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "hako-cmd::@ff80e629145bd216c045",
+					"jsonFile" : "target-hako-cmd-RelWithDebInfo-d89e8a24b529a9beedb7.json",
+					"name" : "hako-cmd",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "hako-master::@4891c92b84def150509a",
+					"jsonFile" : "target-hako-master-RelWithDebInfo-22f4be363eabeecd293d.json",
+					"name" : "hako-master",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-RelWithDebInfo-5f56f690a7d399ee0067.json",
+					"name" : "hako-px4sim",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "hako-px4sim-ucw::@659921cf0e90470eb453",
+					"jsonFile" : "target-hako-px4sim-ucw-RelWithDebInfo-9c21ec1ad3514687af4d.json",
+					"name" : "hako-px4sim-ucw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hako_asset_python::@babbc902166dddee62fa",
+					"jsonFile" : "target-hako_asset_python-RelWithDebInfo-7a5028aa64010a313e91.json",
+					"name" : "hako_asset_python",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoarun::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoarun-RelWithDebInfo-e1df8d17b5316fd64624.json",
+					"name" : "hakoarun",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "hakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-hakoc-RelWithDebInfo-b25c39f3b7b3c0bf6fe5.json",
+					"name" : "hakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hakogyro::@6503b6e4e473d5853e0c",
+					"jsonFile" : "target-hakogyro-RelWithDebInfo-9976409125dacf1d5526.json",
+					"name" : "hakogyro",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hello_world::@6b0f0a7cd89c50eef071",
+					"jsonFile" : "target-hello_world-RelWithDebInfo-300d3b0c0e7ddb2222b3.json",
+					"name" : "hello_world",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ltest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-ltest-RelWithDebInfo-a0824c54f7f462a7e45d.json",
+					"name" : "ltest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mtest::@93759e6e60e2da30477e",
+					"jsonFile" : "target-mtest-RelWithDebInfo-60c6a51702ad55b04bec.json",
+					"name" : "mtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "px4sim_manual::@659921cf0e90470eb453",
+					"jsonFile" : "target-px4sim_manual-RelWithDebInfo-ec2a6e6f167d9f5f7e8b.json",
+					"name" : "px4sim_manual",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "shakoc::@74867fb97a7af23ddcf4",
+					"jsonFile" : "target-shakoc-RelWithDebInfo-705da88952b3248179b8.json",
+					"name" : "shakoc",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "utest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-utest-RelWithDebInfo-9a998857451dab1ecc51.json",
+					"name" : "utest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vtest::@4e7ffce41487655d0f12",
+					"jsonFile" : "target-vtest-RelWithDebInfo-b6b54728894bd83d929c.json",
+					"name" : "vtest",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/hakoniwa/hakoniwa-px4sim/build",
+		"source" : "C:/hakoniwa/hakoniwa-px4sim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

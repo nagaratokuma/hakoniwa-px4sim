@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\conductor\src\hako_conductor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\conductor\src\hako_conductor_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hakoniwa\hakoniwa-px4sim\hakoniwa\third-party\hakoniwa-core-cpp-client\src\conductor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C10AFA13-3AF1-3A15-BAA9-15633B74BF8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

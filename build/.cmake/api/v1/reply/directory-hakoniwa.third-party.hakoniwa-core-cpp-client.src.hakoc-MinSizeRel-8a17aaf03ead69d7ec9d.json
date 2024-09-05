@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc"
+	}
+}

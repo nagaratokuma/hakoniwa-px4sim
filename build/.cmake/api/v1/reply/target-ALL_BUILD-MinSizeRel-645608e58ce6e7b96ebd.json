@@ -1,0 +1,72 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"hakoniwa/third-party/hakoniwa-core-cpp-client/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "hako::@cc84f1c69ca16593a2d4"
+		},
+		{
+			"id" : "shakoc::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "hako-master::@4891c92b84def150509a"
+		},
+		{
+			"id" : "hako-cmd::@ff80e629145bd216c045"
+		},
+		{
+			"id" : "hakoc::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "hakoarun::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "hako-asset::@7280941977ab30918b6a"
+		},
+		{
+			"id" : "assets::@379ef18c027c44f35fdb"
+		},
+		{
+			"id" : "conductor::@d01dfa47eaa02f0579da"
+		},
+		{
+			"id" : "hako_asset_python::@babbc902166dddee62fa"
+		},
+		{
+			"id" : "asset_plant::@cf3864cb9f76cefc1546"
+		},
+		{
+			"id" : "asset_controller::@cf3864cb9f76cefc1546"
+		},
+		{
+			"id" : "hello_world::@6b0f0a7cd89c50eef071"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@9a38febf42621cf6ede4",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "shakoc::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "hakoc::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "hakoarun::@74867fb97a7af23ddcf4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@74867fb97a7af23ddcf4",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc",
+		"source" : "hakoniwa/third-party/hakoniwa-core-cpp-client/src/hakoc"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,54 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"drone_control/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ChatGPT3_5::@ce375a823a056ff52e8f"
+		},
+		{
+			"id" : "DroneAvator::@1915ba50d37293cbefa8"
+		},
+		{
+			"id" : "FlightController::@05405a88e9acd4f2511d"
+		},
+		{
+			"id" : "ChatGPT4::@53434b7f8686e8ed2d52"
+		},
+		{
+			"id" : "Gemini::@ee5be7e04bf2401dffee"
+		},
+		{
+			"id" : "RadioController::@3c27c9179b1dc88a82dd"
+		},
+		{
+			"id" : "hakogyro::@6503b6e4e473d5853e0c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@3b0d6b8ec84fb83d5513",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "drone_control",
+		"source" : "drone_control"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

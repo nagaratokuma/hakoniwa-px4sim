@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9FA8093-5599-3BC6-A61F-7AB73FD023F3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\hakoniwa\hakoniwa-px4sim\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\hakoniwa\hakoniwa-px4sim\cmake-options\default-cmake-options.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\hakoniwa\hakoniwa-px4sim\cmake-options\default-cmake-options.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\hakoniwa\hakoniwa-px4sim\cmake-options\default-cmake-options.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/hakoniwa/hakoniwa-px4sim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeCXXCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeRCCompiler.cmake;C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\3.30.2\CMakeSystem.cmake;C:\hakoniwa\hakoniwa-px4sim\cmake-options\default-cmake-options.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;D:\Apps\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\hakoniwa\hakoniwa-px4sim\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\ZERO_CHECK.vcxproj">
+      <Project>{81FA7A55-4DF2-303B-9E08-334EA47E9C2C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\ChatGPT3_5\ChatGPT3_5.vcxproj">
+      <Project>{4B42812E-759E-3D57-AAEA-6923793D5CD4}</Project>
+      <Name>ChatGPT3_5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\ChatGPT4\ChatGPT4.vcxproj">
+      <Project>{96802D7E-23F1-35FA-8D32-D011CA72794A}</Project>
+      <Name>ChatGPT4</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\DroneAvator\DroneAvator.vcxproj">
+      <Project>{D6E6B7A5-F5A1-3AC8-B3AF-B3735CE5A76E}</Project>
+      <Name>DroneAvator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\FlightController\FlightController.vcxproj">
+      <Project>{11CF2925-1458-311F-879C-52343BA41596}</Project>
+      <Name>FlightController</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\Gemini\Gemini.vcxproj">
+      <Project>{7AEEEB34-9853-31A2-AD42-3A928D6C05DB}</Project>
+      <Name>Gemini</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_control\workspace\RadioController\RadioController.vcxproj">
+      <Project>{CD53275F-1365-3C5A-A7EA-609F25108BC0}</Project>
+      <Name>RadioController</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\matlab-if\acctest.vcxproj">
+      <Project>{4F970F67-425B-3707-8ED9-E0D2C6BB9CCE}</Project>
+      <Name>acctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\examples\pdu_communication\asset_controller.vcxproj">
+      <Project>{A5682531-54CF-37A1-A906-BA4FAEF55AEE}</Project>
+      <Name>asset_controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\examples\pdu_communication\asset_plant.vcxproj">
+      <Project>{6BE707CD-0F94-38C7-8F70-EE89BFEC3323}</Project>
+      <Name>asset_plant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\assets\assets.vcxproj">
+      <Project>{B458F9AE-F378-3B59-85B4-2B68F53ADDE1}</Project>
+      <Name>assets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\cexamples.vcxproj">
+      <Project>{1737DD81-73A4-3401-9BD0-4AA2AC482319}</Project>
+      <Name>cexamples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\conductor\conductor.vcxproj">
+      <Project>{82FD3C28-1E6E-3684-B9B0-4350E755B7A3}</Project>
+      <Name>conductor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\ctest.vcxproj">
+      <Project>{4E7B031D-1744-3906-9FD9-A88BC8990174}</Project>
+      <Name>ctest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\drone_physics.vcxproj">
+      <Project>{AA0B3FEA-6F15-3384-8EF9-11175D1C919D}</Project>
+      <Name>drone_physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\drone_physics_c.vcxproj">
+      <Project>{6F483D9C-FBA2-3CB8-8B9E-B4F4F6E161E6}</Project>
+      <Name>drone_physics_c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\matlab-if\drone_physics_matlab.vcxproj">
+      <Project>{9D9D3693-A5F3-32F9-8243-0F76DB910761}</Project>
+      <Name>drone_physics_matlab</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\examples.vcxproj">
+      <Project>{9B95413C-B433-33D0-AE94-CCEB4D1360C8}</Project>
+      <Name>examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\core\src\hako.vcxproj">
+      <Project>{CAAF6FFF-7158-3699-8BA7-23A61E19C786}</Project>
+      <Name>hako</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\core\sample\base-procs\hako-asset\hako-asset.vcxproj">
+      <Project>{9C93C9DA-DAEC-39B0-A4B4-67BE5D1C8901}</Project>
+      <Name>hako-asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\core\sample\base-procs\hako-cmd\hako-cmd.vcxproj">
+      <Project>{2226C72F-ED40-3BAA-AB1D-4FA845028032}</Project>
+      <Name>hako-cmd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\core\sample\base-procs\hako-master\hako-master.vcxproj">
+      <Project>{673FA4EB-931B-338F-9E6A-47EE5E5E8318}</Project>
+      <Name>hako-master</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\hako-px4sim.vcxproj">
+      <Project>{BCE51709-E671-3410-959D-125B0FCF9DC9}</Project>
+      <Name>hako-px4sim</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\hako-px4sim-ucw.vcxproj">
+      <Project>{A09E5F6F-6FB7-31F0-A58D-B820392DCD7D}</Project>
+      <Name>hako-px4sim-ucw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\bindings\python\hako_asset_python.vcxproj">
+      <Project>{51BF97A7-C910-3CEB-94F5-7F3519E6602B}</Project>
+      <Name>hako_asset_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\hakoarun.vcxproj">
+      <Project>{6AD59BB3-3031-3864-86C4-D70522F07265}</Project>
+      <Name>hakoarun</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\hakoc.vcxproj">
+      <Project>{2E285785-1BE4-3CD9-8016-A10461715E9B}</Project>
+      <Name>hakoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_sensors\sensors\gyro\vendor\hakogyro\hakogyro.vcxproj">
+      <Project>{0A2A15BB-CE28-30DD-A6F8-BEEACFFA9B9C}</Project>
+      <Name>hakogyro</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\examples\hello_world\hello_world.vcxproj">
+      <Project>{7FD223C5-93C9-3D01-BC50-760C16EE7B83}</Project>
+      <Name>hello_world</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\matlab-if\ltest.vcxproj">
+      <Project>{A551BAE1-B594-31CB-A52C-B9839D99A106}</Project>
+      <Name>ltest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\src\px4sim_manual.vcxproj">
+      <Project>{5FCE8EBE-B794-31B7-B79B-F8626502000A}</Project>
+      <Name>px4sim_manual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\hakoniwa\third-party\hakoniwa-core-cpp-client\src\hakoc\shakoc.vcxproj">
+      <Project>{E69A9406-0E6E-319B-A7B9-7839BFC7B901}</Project>
+      <Name>shakoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\hakoniwa\hakoniwa-px4sim\build\drone_physics\utest.vcxproj">
+      <Project>{43C96DC2-8ECA-3693-985D-B09BC4DE2096}</Project>
+      <Name>utest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

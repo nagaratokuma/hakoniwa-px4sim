@@ -1,0 +1,10 @@
+^C:\HAKONIWA\HAKONIWA-PX4SIM\BUILD\CMAKEFILES\0E25A391BD2A2B51EAB2ECE13D27DB6C\GENERATE.STAMP.RULE
+setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/hakoniwa/hakoniwa-px4sim/build/hakoniwa-px4sim-root.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

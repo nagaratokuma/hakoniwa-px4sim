@@ -1,0 +1,10 @@
+^C:\HAKONIWA\HAKONIWA-PX4SIM\DRONE_CONTROL\WORKSPACE\RADIOCONTROLLER\CMAKELISTS.TXT
+setlocal
+D:\Apps\CMake\bin\cmake.exe -SC:/hakoniwa/hakoniwa-px4sim -BC:/hakoniwa/hakoniwa-px4sim/build --check-stamp-file C:/hakoniwa/hakoniwa-px4sim/build/drone_control/workspace/RadioController/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
